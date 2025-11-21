@@ -9,8 +9,8 @@ Before starting:
 - Browser: Edge / Chrome
 - Access Portal: https://portal.azure.com
 
-> Workshop Web App URL:
-- https://onlinedrive.onrender.com/
+### Workshop Web App URL:
+https://onlinedrive.onrender.com/
 
 # 🧭 1. Azure Portal Navigation
 Azure Portal main sections:
