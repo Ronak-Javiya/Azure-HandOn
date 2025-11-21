@@ -1,8 +1,8 @@
 # 🌐 Azure Fundamentals Hands-On Workshop
 > Complete Guide for Students to Practice After the Session
 > This README contains all steps covered in the workshop, including Azure navigation, resource group creation, web app hosting, and virtual machine setup.
->
-> # Prerequisites
+
+# Prerequisites
 Before starting:
 - Azure Account (Free / Student Subscription)
 - Stable internet connection
@@ -25,8 +25,8 @@ Steps
 1. Search Resource groups
 2. Click Create
 3. Fill:
-  - Subscription: Your subscription
-  - Resource Group Name: workshop-rg
-  - region: Select nearest region
+  -- Subscription: Your subscription
+  -- Resource Group Name: workshop-rg
+  -- region: Select nearest region
 4. Click Review + Create
 5. Click Create
