@@ -33,7 +33,36 @@ Steps:
 5. Click Create
 </pre>
 
-# 🌐 3. Create a Web App (Host Your Website)
+# 📁 3. Create a Storage Account
+Steps: 
+<pre>
+1. Search Storage accounts
+2. Click Create
+3. Fill:
+  - Resource Group: workshop-rg
+  - Storage Account Name: mystorage<yourname>
+  - Region: Same as RG
+  - Performance: Standard
+  - Redundancy: LRS
+4. Go to Advanced Tab and make anonymus access allowed (Optional if you dont want public access)
+5. Click Review + Create → Create
+6. Open Storage Account → Containers
+7. Create new container:
+  - Name: uploads
+  - Public Access: Private / Blob
+
+    
+<B>Upload Files</B>
+    - Open container
+    - Click Upload
+
+<B>Copy File URL</B>
+    - Click file → Properties
+    - Copy Blob URL
+</pre>
+
+
+# 🌐 4. Create a Web App (Host Your Website)
 Azure App Service lets you host static or dynamic websites.
 
 Steps
@@ -78,34 +107,6 @@ Steps
   b. Click Browse
 
 Your website from GitHub is now live on Azure.
-</pre>
-
-# 📁 4. Create a Storage Account
-Steps: 
-<pre>
-1. Search Storage accounts
-2. Click Create
-3. Fill:
-  - Resource Group: workshop-rg
-  - Storage Account Name: mystorage<yourname>
-  - Region: Same as RG
-  - Performance: Standard
-  - Redundancy: LRS
-4. Go to Advanced Tab and make anonymus access allowed (Optional if you dont want public access)
-5. Click Review + Create → Create
-6. Open Storage Account → Containers
-7. Create new container:
-  - Name: uploads
-  - Public Access: Private / Blob
-
-    
-<B>Upload Files</B>
-    - Open container
-    - Click Upload
-
-<B>Copy File URL</B>
-    - Click file → Properties
-    - Copy Blob URL
 </pre>
 
 # 🖥️ 5. Create a Virtual Machine (VM)
