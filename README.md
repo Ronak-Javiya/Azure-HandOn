@@ -25,8 +25,44 @@ Steps
 1. Search Resource groups
 2. Click Create
 3. Fill:
-  -- Subscription: Your subscription
-  -- Resource Group Name: workshop-rg
-  -- region: Select nearest region
+  - Subscription: Your subscription
+  - Resource Group Name: workshop-rg
+  - region: Select nearest region
 4. Click Review + Create
 5. Click Create
+
+# 🌐 3. Create a Web App (Host Your Website)
+Azure App Service lets you host static or dynamic websites.
+
+Steps
+<pre>
+1. Search App Services
+2. Click Create
+3. Fill:
+  - Resource Group: workshop-rg
+  - Name: my-webapp-demo-<yourname>
+  - Publish: Code
+  - Runtime Stack: Node 18 / Python 3.10
+  - OS: Linux
+  - Plan: Free (F1)
+4. Click Review + Create → Create
+5. After deployment → Click Go to Resource
+6. Click Browse to view the default page
+</pre>
+
+## Deploy Your Web App Using Github
+
+1. Create a GitHub Repository
+2. Add Your Website Files
+3. Connect GitHub to Azure App Service
+- Go to your App Service in Azure
+- Left menu → Deployment Center
+- Choose:
+  - Source: GitHub
+  - Repository: your repo
+  - Branch: main
+  - Build Provider: GitHub Actions
+- Click Save / Finish
+- Azure automatically generates a workflow file in your repo: .github/workflows/azure-webapps.yml
+- This file builds and deploys your website every time you push a commit.
+
